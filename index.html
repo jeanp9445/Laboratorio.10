@@ -2,19 +2,22 @@
 <html>
 <head>
   <title>Página web con inicio de sesión</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* Estilos CSS */
  
+    /*
     body {
      height: 650px;
-     background-image: url("https://static.vecteezy.com/system/resources/previews/002/811/450/non_2x/city-background-and-wallpaper-vector.jpg");
+     
      background-size: cover;
      background-repeat:no-repeat;
      background-position: center;
-    }
+    }*/
     
     body {
       font-family: Arial, sans-serif;
+      background-image: url("https://static.vecteezy.com/system/resources/previews/002/811/450/non_2x/city-background-and-wallpaper-vector.jpg");
     }
     .container {
       max-width: 400px;
@@ -40,6 +43,12 @@
       cursor: pointer;
       width: 100%;
     }
+    div{
+      background-color: rgba(0,0,0,0.5);
+    }
+    h2,label[for="username"], label[for="password"]{
+      color: #FFFFFF; 
+    }
   </style>
 </head>
 <body>
@@ -52,6 +61,7 @@
     <button onclick="login()">Iniciar sesión</button>
   </div>
   
+  <!--
   <section>
     <img src="https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280" alt="Imagen de cuerpo policial" 
          sizes="(max-width: 320px) 180px,
@@ -61,6 +71,7 @@
                  https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280 680w,
                  https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280 1000w">
   </section>
+-->
 
   <script>
     function login() {
