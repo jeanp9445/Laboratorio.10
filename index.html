@@ -5,15 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* Estilos CSS */
- 
-    /*
-    body {
-     height: 650px;
-     
-     background-size: cover;
-     background-repeat:no-repeat;
-     background-position: center;
-    }*/
     
     body {
       font-family: Arial, sans-serif;
@@ -25,6 +16,7 @@
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 4px;
+      background-color: rgba(0,0,0,0.5);
     }
     input[type="text"], input[type="password"] {
       width: 100%;
@@ -43,9 +35,12 @@
       cursor: pointer;
       width: 100%;
     }
-    div{
-      background-color: rgba(0,0,0,0.5);
+    
+    p{
+      color: #FFFFFF;
+      text-align: center;
     }
+    
     h2,label[for="username"], label[for="password"]{
       color: #FFFFFF; 
     }
@@ -59,19 +54,10 @@
     <label for="password">Contraseña:</label>
     <input type="password" id="password" placeholder="Ingrese su contraseña">
     <button onclick="login()">Iniciar sesión</button>
+    <footer>
+      <a target="_blank" href="https://www.google.com/search?q=google&rlz=1C1VDKB_esPE1029PE1029&oq=google&aqs=chrome..69i57j46i67i131i199i433i465i650j35i39i650l2j69i59j0i67i131i433i650l3j0i67i650l2.5278j0j15&sourceid=chrome&ie=UTF-8"><p>¿Olividaste tu contraseña?</p></a>
+    </footer>
   </div>
-  
-  <!--
-  <section>
-    <img src="https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280" alt="Imagen de cuerpo policial" 
-         sizes="(max-width: 320px) 180px,
-                (max-width: 480px) 140px,
-                180px" 
-         srcset="https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280 520w,
-                 https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280 680w,
-                 https://lh5.googleusercontent.com/UYGuTkah8w3Wb4AzUG-65FplFARzU2w_y1kvz1D-M1UtZu0CbNBuk0h_YFmmNNf6JB38Ko0V2CrnqzH_p5h-f0o7iODreUiggqivffCntVRmuKRAqvOSMi4OdLK26JKGhw=w1280 1000w">
-  </section>
--->
 
   <script>
     function login() {
